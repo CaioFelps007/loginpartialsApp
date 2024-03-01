@@ -10,6 +10,8 @@ const imagesfundo = { uri: 'https://static.vecteezy.com/ti/vetor-gratis/p3/53945
 
 export default function ImagesFundo() {
     return (
+
+        // Área da imagem de fundo onde engloba as partials do site como, Titulo, Input, Button.
         <ImageBackground source={imagesfundo} style={estilos.imagemdofundo}>
             <View style={estilos.terciaryContainer}>
                 <Texts/>

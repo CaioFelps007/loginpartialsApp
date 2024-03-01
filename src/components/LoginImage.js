@@ -6,6 +6,8 @@ const imagereact = { uri: 'https://static.vecteezy.com/ti/vetor-gratis/p3/947229
 
 export default function ImageReacts() {
     return (
+
+        // Imagem localizada em baixo da caixa vermelha onde se preenche as informações.
         <Image source={imagereact} style={estilos.imagereact}/>
     )
 }

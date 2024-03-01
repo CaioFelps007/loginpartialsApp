@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native";
 
+// Estilização das paginas
+
 export const estilos = StyleSheet.create({
     imagemdofundo: {
         width: '100%',

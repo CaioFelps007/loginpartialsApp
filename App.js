@@ -6,6 +6,8 @@ import ImageReacts from "./src/components/LoginImage";
 export default function App() {
 
   return (
+
+    // App para rodas a página de login.
     <View style={estilos.container}>
       <Login />
 

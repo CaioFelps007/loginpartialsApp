@@ -10,6 +10,7 @@ export default function Inputs() {
     return (
         <View>
  
+ {/*Caixas de textos para inserir suas informações  */}
             <TextInput style={estilos.InputName}
                 placeholder='Seu Nome'
             />
