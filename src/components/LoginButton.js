@@ -1,16 +1,17 @@
-import { Button } from "react-native";
+import { Button, View } from "react-native";
+import { estilos } from "../styles/StyleSheet";
 
 
 
-export default function Button() {
+export default function Buttonlogin() {
 
     return (
+
+       
+            <Button 
+                title='Pronto'
+            />
         
-<View style={styles.terciaryContainer}>
-<Button style={styles.btn}
-    title='Pronto'
-/>
-</View>
     )
 }
 

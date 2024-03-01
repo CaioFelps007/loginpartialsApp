@@ -1,4 +1,6 @@
 import { TextInput, View} from 'react-native';
+import { estilos } from '../styles/StyleSheet';
+
 
 
 
@@ -6,17 +8,20 @@ import { TextInput, View} from 'react-native';
 export default function Inputs() {
 
     return (
-        <View style={styles.terciaryContainer}>
-            <Text style={{ fontWeight: 'bold', fontSize: 30, borderBottomWidth: 2, borderBottomColor: 'white' }}>Login</Text>
-            <TextInput style={styles.InputName}
+        <View>
+ 
+            <TextInput style={estilos.InputName}
                 placeholder='Seu Nome'
             />
-            <TextInput style={styles.InputName}
+            <TextInput style={estilos.InputName}
                 placeholder='Sua Senha'
                 secureTextEntry={true}
             />
 
         </View>
+           
+
+    
     )
 }
 

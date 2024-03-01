@@ -1,23 +1,14 @@
-import { View } from "react-native"
+import { View } from "react-native";
+import ImagesFundo from "../components/LoginImageBackground";
+import { estilos } from "../styles/StyleSheet";
 
+export default function Login() {
+  return (
 
+    <View style={estilos.secondaryContainer}>
+      <ImagesFundo/>
+    </View>
 
+  )
 
-
-<View style={styles.terciaryContainer}>
-<Text style={{ fontWeight: 'bold', fontSize: 30, borderBottomWidth: 2, borderBottomColor: 'white'}}>Login</Text>
-<TextInput style={styles.InputName}
-  placeholder='Seu Nome'
-/>
-<TextInput style={styles.InputName}
-  placeholder='Sua Senha'
-  secureTextEntry={true}
-/>
-
-<Button style={styles.btn}
-title='Pronto'
-
-  />
-
-
-</View>
+}
