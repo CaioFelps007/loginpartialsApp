@@ -1,5 +1,6 @@
 import { TextInput, View} from 'react-native';
 import { estilos } from '../styles/StyleSheet';
+import ImagesFundo from './LoginImageBackground';
 
 
 
@@ -8,7 +9,8 @@ import { estilos } from '../styles/StyleSheet';
 export default function Inputs() {
 
     return (
-        <View>
+        <ImagesFundo>
+ <View>
  
  {/*Caixas de textos para inserir suas informações  */}
             <TextInput style={estilos.InputName}
@@ -20,6 +22,8 @@ export default function Inputs() {
             />
 
         </View>
+        </ImagesFundo>
+       
            
 
     

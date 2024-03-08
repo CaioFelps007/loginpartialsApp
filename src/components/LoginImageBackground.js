@@ -1,28 +1,21 @@
 import { ImageBackground } from "react-native";
-import Texts from "./LoginText";
-import Inputs from "../components/Logininput";
-import Buttonlogin from "../components/LoginButton";
-import ImageReacts from "../components/LoginImage";
 import { View } from "react-native";
 import { estilos } from "../styles/StyleSheet";
+import Login from "../pages/Login";
 
 const imagesfundo = { uri: 'https://static.vecteezy.com/ti/vetor-gratis/p3/539459-ilustracao-preto-e-branco-do-bodybuilder-do-gorila-vetor.jpg' }
 
-export default function ImagesFundo() {
+export default function ImagesFundo({children}) {
     return (
-
-        // Área da imagem de fundo onde engloba as partials do site como, Titulo, Input, Button.
+<Login>
+{/* // Área da imagem de fundo onde engloba as partials do site como, Titulo, Input, Button. */}
         <ImageBackground source={imagesfundo} style={estilos.imagemdofundo}>
             <View style={estilos.terciaryContainer}>
-                <Texts/>
-                <Inputs/>
-                <Buttonlogin/>
+            {children}
             </View>
-
-            <ImageReacts/>
-
-
-
         </ImageBackground>
+
+</Login>
+      
     )
 }

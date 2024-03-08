@@ -1,5 +1,5 @@
 import { Button, View } from "react-native";
-import { estilos } from "../styles/StyleSheet";
+import ImagesFundo from "./LoginImageBackground";
 
 
 
@@ -7,10 +7,13 @@ export default function Buttonlogin() {
 
     return (
 // Botão "pronto" do site.
-       
-            <Button 
+<ImagesFundo>
+<Button 
                 title='Pronto'
             />
+</ImagesFundo>
+       
+           
         
     )
 }
