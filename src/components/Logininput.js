@@ -9,20 +9,20 @@ import ImagesFundo from './LoginImageBackground';
 export default function Inputs() {
 
     return (
-        <ImagesFundo>
+    
  <View>
  
  {/*Caixas de textos para inserir suas informações  */}
-            <TextInput style={estilos.InputName}
+            <TextInput style={estilos.input}
                 placeholder='Seu Nome'
             />
-            <TextInput style={estilos.InputName}
+            <TextInput style={estilos.input}
                 placeholder='Sua Senha'
                 secureTextEntry={true}
             />
 
         </View>
-        </ImagesFundo>
+
        
            
 

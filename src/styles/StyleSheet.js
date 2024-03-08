@@ -31,25 +31,47 @@ export const estilos = StyleSheet.create({
     secondaryContainer: {
         flex: 1,
         width: '100%',
-        backgroundColor: 'white',
         alignItems: 'center',
       
     },
 
+btn: {
+justifyContent: 'center',
+alignItems: 'center'
+},
+
+botaoo:{
+justifyContent: 'center',
+borderWidth:1,
+borderColor: 'black',
+textAlign: 'center',
+backgroundColor: 'black',
+color: 'white',
+height: 40,
+width: 120,
+borderRadius: 10,
+shadowColor: 'black',
+shadowRadius: 6,
+paddingTop: 10
+
+},
+
     container: {
         flex: 1,
+        width:'100%',
+
     },
 
-    InputName: {
+    input: {
  
         borderWidth: 2,
         borderColor: 'grey',
-        borderRadius: 5,
+        borderRadius: 10,
         margin: 15,
         justifyContent: 'center',
-        backgroundColor: 'white',
-       width: '90%',
-       height: '20%'
+        backgroundColor: '#FA8072',
+       width: 700,
+       height: 60
       
       },
 
